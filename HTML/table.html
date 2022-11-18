@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tampil Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Lengkap</th>
+                <th>NO Telepon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nicolas Radita</td>
+                <td>08785545655</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jojo Joko</td>
+                <td>084755658941</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- Bagian modifikasi -->
+    <h2>Table Modifikasi</h2>
+    <table border="1" style="width:60% ;">
+        <thead>
+            <tr style="background-color:yellow ;">
+                <th style="width:5% ;">No</th>
+                <th style="width:45% ;">Nama Lengkap</th>
+                <th style="width:10% ;">NO Telepon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Nicolas Radita</td>
+                <td>08785545655</td>
+            </tr>
+            <tr>
+                <td>Jojo Joko</td>
+                <td>084755658941</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Rata-rata umur</td>
+                <td>16</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- Modifikasi 2 -->
+    <h2>Table Modifikasi</h2>
+    <table border="1" style="width:70% ;">
+        <thead>
+            <tr style="background-color:yellow ;">
+                <th style="width:5% ;">No</th>
+                <th style="width:45% ;">Nama Lengkap</th>
+                <th style="width:10% ;">NO Telepon</th>
+                <th style="width:10% ;">Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>Nicolas Radita</td>
+                <td>08457557412</td>
+                <td><img src="bedugul.jpg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Jojo Joko</td>
+                <td>087844541211</td>
+                <td><img src="bedugul.jpg" width="50" height="50"></tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Rata-rata umur</td>
+                <td>16</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.navigasi {
+    color: red;
+}
+
+.navigasi:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.navigasi:active {
+    color: blue;
+}
